@@ -18,7 +18,7 @@ public class CheckPage {
     }
 
     @Test
-    void CheckTheOnePage() {
+    void checkTheOnePage() {
         open("https://github.com/");
         $(byText("Solutions")).hover();
         $(byText("Enterprise")).click();
